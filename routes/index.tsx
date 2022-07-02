@@ -11,7 +11,7 @@ export default function Home() {
         height="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
-      <p class={tw`my-6`}>hellox</p>
+      <p class={tw`my-6`}>This is fucking awesome</p>
       <Counter start={3} />
     </div>
   );
