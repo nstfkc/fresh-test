@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowNonTsExtensions": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "jsx": "h",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "strict": true,
+    "removeComments": true,
+    "target": "esnext",
+    "plugins": [
+      {
+        "name": "typescript-deno-plugin",
+        "importmap": "import_map.json"
+      }
+    ]
+  }
+}
